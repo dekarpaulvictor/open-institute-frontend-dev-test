@@ -9,6 +9,12 @@ The various parts of the interface have been broken down into different
 reusable components that work really well by just swapping in and out different
 prop values.
 
+I also use [Bootstrap](https://getbootstrap.com/) to style the components. It
+is one of the best frontend development libraries for quickly putting together
+a basic site if time is of the essence. I have added some custom CSS styling to
+some components, particularly the Sign in and Registration forms and custom
+bullet list styles.
+
 Clearly, a lot of improvements can be made, such as:
 
   - Adding a more secure authentication mechanism from the likes of [Oauth](https://oauth.net/) and
