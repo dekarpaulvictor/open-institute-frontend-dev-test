@@ -1,4 +1,10 @@
 import {useEffect} from 'react';
+import {
+  TitleBanner,
+  IntroSectionWithVid,
+  ProgrammesList,
+  ActivityList
+} from '../Components';
 
 const Programmes = ({title}) => {
 
@@ -7,16 +13,16 @@ const Programmes = ({title}) => {
     document.title = title;
   });
 
+  // Props for IntroSectionWithVideo component
+  const introText = "Pretium lectus non purus nunc interdum. Nunc malesuada at egestas in sed. Lectus nulla tempor donec tempus metus semper tempor. Aliquam, vulputate quam habitant convallis morbi nec aenean pharetra neque. Non sit elementum nulla facilisis commodo quisque proin mauris. Lobortis risus id elementum.";
+  const vidUrl = "https://www.youtube.com/embed/pjJJ-5athpY?rel=0";
+  
   return (
-    <div 
-      className="container d-flex flex-column align-items-center"
-      style={
-        {
-          height: '600px'
-        }
-      }
-    >
-      <h2 className="m-auto text-muted">{title}</h2>
+    <div>
+      <TitleBanner title="Programmes" />
+      <IntroSectionWithVid introText={introText} vidUrl={vidUrl} />
+      <ProgrammesList />
+      <ActivityList />
     </div>
   );
 }

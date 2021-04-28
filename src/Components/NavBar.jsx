@@ -18,8 +18,11 @@ const NavBar = (props) => {
       <nav
         className={
           `navbar navbar-expand-lg 
-          ${currentRoute === '/' ? "navbar-dark" : "navbar-light bg-light"}
-          fixed-top my-2 my-md-0`
+          ${
+            currentRoute === '/' ?
+             "navbar-dark fixed-top" : "navbar-light bg-light"
+          }
+          my-2 my-md-0`
         }
       >
         <Link className="navbar-brand" to="/">

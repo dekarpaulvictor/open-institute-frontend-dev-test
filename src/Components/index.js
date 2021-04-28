@@ -7,7 +7,7 @@ export {default as InnerSection} from './InnerSection';
 export {default as InnerSectionReversed} from './InnersectionReversed';
 export {default as Testimonial} from './Testimonial';
 export {default as Partners} from './Partners';
-export {default as IntroSectionVid} from './IntroSectionVid';
+export {default as IntroSectionWithVid} from './IntroSectionWithVid';
 export {default as ProgrammesList} from './ProgrammesList';
 export {default as ActivityList} from './ActivityList';
 export {default as CallToAction} from './CallToAction';

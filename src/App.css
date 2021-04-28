@@ -1,0 +1,49 @@
+/*
+  For drawing a grey marker along the left side of the paragraphs
+  on the Programmes page
+*/
+.left-line-with-markers {
+  list-style: none;
+}
+.left-line-with-markers >li {
+  position: relative;
+}
+.left-line-with-markers>li:before {
+  content: '\25CF';
+  margin-right: 10px;
+  font-size: 2rem;
+  color: #828282 ;
+}
+.left-line-with-markers>li:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  border-left: 2px solid #828282;
+  margin-left: 5px;
+  height: 100%;
+}
+.left-line-with-markers >li:first-of-type:after {
+  top: 50%;
+}
+.left-line-with-markers >li:last-of-type:after {
+  top: -50%;
+}
+
+/*
+  For replacing default bullet list symbols with a star symbol
+  represented by unicode character `U+2605`
+*/
+.star-bullets {
+  list-style: none;
+}
+
+.star-bullets >li::before {
+  content: '\2605';
+  margin-right: 10px;
+  font-size: 1rem;
+  color:#333333;
+
+}
+
+

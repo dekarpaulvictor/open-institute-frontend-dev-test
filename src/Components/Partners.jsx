@@ -12,19 +12,19 @@ const Partners = () => {
           }
         }
       >
-        <div className="col-6 col-sm-2 text-center">
+        <div className="col-6 col-sm-4 col-md-2 text-center">
           <img src={partnerLogo} alt=""/>
         </div>
-        <div className="col-6 col-sm-2 text-center">
+        <div className="col-6 col-sm-4 col-md-2 text-center">
           <img src={partnerLogo} alt=""/>
         </div>
-        <div className="col-6 col-sm-2 text-center">
+        <div className="col-6 col-sm-4 col-md-2 text-center">
           <img src={partnerLogo} alt=""/>
         </div>
-        <div className="col-6 col-sm-2 text-center">
+        <div className="col-6 col-sm-4 col-md-2 text-center">
           <img src={partnerLogo} alt=""/>
         </div>
-        <div className="col-6 col-sm-2 text-center">
+        <div className="col-6 col-sm-4 col-md-2 text-center">
           <img src={partnerLogo} alt=""/>
         </div>
       </div>
