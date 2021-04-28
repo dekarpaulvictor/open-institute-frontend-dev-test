@@ -1,4 +1,7 @@
 import {useEffect} from 'react';
+import {
+  SignUpSection
+} from '../Components';
 
 const Register = ({title}) => {
 
@@ -8,16 +11,7 @@ const Register = ({title}) => {
   });
 
   return (
-    <div 
-      className="container d-flex flex-column align-items-center"
-      style={
-        {
-          height: '600px'
-        }
-      }
-    >
-      <h2 className="m-auto text-muted">{title}</h2>
-    </div>
+    <SignUpSection />
   );
 }
 

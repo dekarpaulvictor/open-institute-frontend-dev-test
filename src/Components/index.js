@@ -11,4 +11,6 @@ export {default as IntroSectionWithVid} from './IntroSectionWithVid';
 export {default as ProgrammesList} from './ProgrammesList';
 export {default as ActivityList} from './ActivityList';
 export {default as CallToAction} from './CallToAction';
+export {default as SignInSection} from './SignInSection';
+export {default as SignUpSection} from './SignUpSection';
 export {default as Footer} from './Footer';
