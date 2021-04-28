@@ -21,7 +21,7 @@ Clearly, a lot of improvements can be made, such as:
     manage logged in state.
 
 
-### How to run
+### How to run locally
 
 1. Clone the repository:
 
@@ -33,6 +33,9 @@ git clone https://github.com/dekarpaulvictor/open-institute-frontend-dev-test.gi
 2. If you have `yarn` installed, run `yarn start` at the root of the repo and
    you're good to go.
 
+   Alternatively, run `npm run start`.
+
+   The app can be accessed at `http://localhost:3000` 
 
 
 
