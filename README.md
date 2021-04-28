@@ -12,7 +12,7 @@ prop values.
 Clearly, a lot of improvements can be made, such as:
 
   - Adding a more secure authentication mechanism from the likes of [Oauth](https://oauth.net/) and
-    [Google Authentication]('https://developers.google.com/identity/protocols/oauth2')
+    [Google]('https://developers.google.com/identity/protocols/oauth2')
   - Replacing placeholder images with real images from retribution-free sites
     such as [Pexels](https://pexels.com/)
   - Refactor the React components (I use function-based components and hooks)
