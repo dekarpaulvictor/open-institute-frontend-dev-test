@@ -30,7 +30,7 @@ const SignUpForm = () => {
         type="email" 
         id="inputEmail" 
         className="form-control" 
-        placeholder="Email address" required autofocus />
+        placeholder="Email address" required autoFocus />
       <Link className="btn btn-primary btn-sm rounded-pill mt-2 mt-sm-4 px-4" to="#">
         Register
       </Link>

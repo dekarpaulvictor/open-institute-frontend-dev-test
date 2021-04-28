@@ -8,6 +8,7 @@ const HeroSlider = () => {
       {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroBg})`,
         backgroundSize: 'cover',
+        backgroundPosition: 'center center',
         backgroundAttachment: 'scroll',
         height: '600px'
       }
