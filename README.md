@@ -36,10 +36,12 @@ git clone https://github.com/dekarpaulvictor/open-institute-frontend-dev-test.gi
 
 ```
 
-2. If you have `yarn` installed, run `yarn start` at the root of the repo and
-   you're good to go.
+2. If you have `yarn` installed, run `yarn` or `yarn add` at the root of the
+   repo to install the app's dependencies.
 
-   Alternatively, run `npm run start`.
+   Alternatively, run `npm install`.
+
+3. Run `yarn start` or `npm run start` to run the app.
 
    The app can be accessed at `http://localhost:3000` 
 
